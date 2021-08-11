@@ -25,3 +25,10 @@ function addAndMultiplyBy5(num1, num2) {
 
 var timesFive = addAndMultiplyBy5(10, 5);
 console.log('sum', timesFive);
+
+function multiplyAndDivideBy5(num1, num2) {
+  return num1 * num2 / 5;
+}
+
+var dividedBy5 = multiplyAndDivideBy5(35, 10);
+console.log('sum', dividedBy5);
