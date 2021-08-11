@@ -18,3 +18,10 @@ function getGreeting(name) {
 
 var greeting = getGreeting('World!');
 console.log('Hello', greeting);
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+
+var timesFive = addAndMultiplyBy5(10, 5);
+console.log('sum', timesFive);
