@@ -24,7 +24,7 @@ function addAndMultiplyBy5(num1, num2) {
 }
 
 var timesFive = addAndMultiplyBy5(10, 5);
-console.log('sum', timesFive);
+console.log(timesFive);
 
 function multiplyAndDivideBy5(num1, num2) {
   return num1 * num2 / 5;
@@ -38,11 +38,18 @@ function subtractTwoNumbers(num1, num2) {
 }
 
 var subtracted = subtractTwoNumbers(22, 7);
-console.log('sum', subtracted);
+console.log('total', subtracted);
 
 function getCircleCircumference(radius) {
   return 2 * Math.PI * radius;
 }
 
 var circumference = getCircleCircumference(5);
-console.log('sum', circumference);
+console.log(circumference);
+
+function getFullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+
+var fullName = getFullName('Addy', 'Abid');
+console.log(fullName);
