@@ -31,7 +31,7 @@ function multiplyAndDivideBy5(num1, num2) {
 }
 
 var dividedBy5 = multiplyAndDivideBy5(35, 10);
-console.log('sum', dividedBy5);
+console.log(dividedBy5);
 
 function subtractTwoNumbers(num1, num2) {
   return num1 - num2;
@@ -53,3 +53,10 @@ function getFullName(firstName, lastName) {
 
 var fullName = getFullName('Addy', 'Abid');
 console.log(fullName);
+
+function cube(number) {
+  return Math.pow(number, 3);
+}
+
+var cubeNum = cube(5);
+console.log(cubeNum);
