@@ -39,3 +39,10 @@ function subtractTwoNumbers(num1, num2) {
 
 var subtracted = subtractTwoNumbers(22, 7);
 console.log('sum', subtracted);
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+
+var circumference = getCircleCircumference(5);
+console.log('sum', circumference);
